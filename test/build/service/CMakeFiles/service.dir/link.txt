@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/service.dir/service.cpp.o  -o ../bin/service   -L/home/xutiancheng/test/startdust/sd_libevent/test/../build/output/lib  -Wl,-rpath,/home/xutiancheng/test/startdust/sd_libevent/test/../build/output/lib:/usr/local/lib /usr/local/lib/liblog4cxx.so.15.1.0 -lpthread -lsd_libevent 

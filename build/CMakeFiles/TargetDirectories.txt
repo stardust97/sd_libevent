@@ -1,0 +1,5 @@
+/home/xutiancheng/test/startdust/sd_libevent/build/CMakeFiles/rebuild_cache.dir
+/home/xutiancheng/test/startdust/sd_libevent/build/CMakeFiles/edit_cache.dir
+/home/xutiancheng/test/startdust/sd_libevent/build/src/CMakeFiles/rebuild_cache.dir
+/home/xutiancheng/test/startdust/sd_libevent/build/src/CMakeFiles/edit_cache.dir
+/home/xutiancheng/test/startdust/sd_libevent/build/src/CMakeFiles/sd_libevent.dir
