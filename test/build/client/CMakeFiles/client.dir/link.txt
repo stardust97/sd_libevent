@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/client.dir/client.cpp.o  -o ../bin/client   -L/home/xutiancheng/test/startdust/sd_libevent/test/../build/output/lib  -Wl,-rpath,/home/xutiancheng/test/startdust/sd_libevent/test/../build/output/lib:/usr/local/lib /usr/local/lib/liblog4cxx.so.15.1.0 -lpthread -lsd_libevent 

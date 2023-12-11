@@ -1,8 +1,0 @@
-/home/xutiancheng/test/startdust/sd_libevent/test/build/CMakeFiles/rebuild_cache.dir
-/home/xutiancheng/test/startdust/sd_libevent/test/build/CMakeFiles/edit_cache.dir
-/home/xutiancheng/test/startdust/sd_libevent/test/build/service/CMakeFiles/rebuild_cache.dir
-/home/xutiancheng/test/startdust/sd_libevent/test/build/service/CMakeFiles/edit_cache.dir
-/home/xutiancheng/test/startdust/sd_libevent/test/build/service/CMakeFiles/service.dir
-/home/xutiancheng/test/startdust/sd_libevent/test/build/client/CMakeFiles/rebuild_cache.dir
-/home/xutiancheng/test/startdust/sd_libevent/test/build/client/CMakeFiles/edit_cache.dir
-/home/xutiancheng/test/startdust/sd_libevent/test/build/client/CMakeFiles/client.dir
