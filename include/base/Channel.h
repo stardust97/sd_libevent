@@ -34,6 +34,7 @@ public:
   bool GetIsBlocked() {return is_blocked_;};
   void HandleEvents(); //处理当前Channel发生的事件
 
+  void SetEvents(uint32_t events);
   void EnableReading();
   void EnableETReading();
   void DisableReading();

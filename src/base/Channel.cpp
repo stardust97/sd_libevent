@@ -46,6 +46,12 @@ void Channel::HandleEvents() {
   }
 }
 
+void Channel::SetEvents(uint32_t events) {
+  LOG4CXX_INFO(Logger::GetLogger(), "Channel fd "<< fd_ << " set events ");
+  events_ = events;
+  update_channel_events();
+}
+
 void Channel::EnableReading() {
   LOG4CXX_INFO(Logger::GetLogger(), "Channel fd "<< fd_ << " enable reading");
   events_ |= KReadEvent;

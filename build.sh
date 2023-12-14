@@ -35,3 +35,12 @@ echo "Build Done"
 cd $DIR
 cp -r ./include build/output
 
+cd ..
+if [ -d depedency ]; then
+  rm -rf depedency
+fi
+mkdir depedency
+
+cp -r ${DIR}/build/output/include depedency
+cp -r ${DIR}/build/output/lib depedency
+echo "copy include and library to depedencys
