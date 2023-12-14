@@ -16,8 +16,7 @@ Server::Server(EventLoop* loop) :main_reactor_ (loop), acceptor_ (nullptr), pool
   auto new_connect_callback = std::bind(&Server::on_new_connection, this, std::placeholders::_1);
   acceptor_ -> SetAcceptCallback(new_connect_callback);
 
-  // int32_t thread_num = std::thread::hardware_concurrency();
-  int32_t thread_num = 1;
+  int32_t thread_num = std::thread::hardware_concurrency();
   pool_ = new ThreadPool(thread_num);
   // sub_reactor_ = std::vector<EventLoop*> (thread_num);  //BUG 这样初始化sub_reactor_会导致EventLoop为空指针
   for(int32_t i = 0; i < thread_num;++i) { //subReactor个数和线程池个数一致
